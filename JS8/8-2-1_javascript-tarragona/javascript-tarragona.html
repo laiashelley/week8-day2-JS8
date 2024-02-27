@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript-tarragona.css">
+    <title>Nos vamos de viaje!</title>
+</head>
+<body>
+    
+    <h1>¡Nos vamos de viaje a Tarragona!</h1>
+
+    <p>Interacciona con los botones del GPS para poder ir viendo lo que hay por el camino antes de llegar al destino.</p>
+
+    <div class="gps">
+
+        <input type="button" id="100km" value="100 km" onclick = cienKm()>
+        <input type="button" id="50km" value="50 km" onclick = cincuentaKm()>
+        <input type="button" id="15km" value="15 km" onclick = quinceKm()>
+        <input type="button" id="0km" value="0 km" onclick = ceroKm()>
+        <input type="button" id="cerrar" value="Hemos llegado!" onclick = cerrar()>
+
+    </div>
+
+   <div class="imagen-manresa-100"></div>
+
+   <div class="imagen-vilafranca-50"></div>
+
+   <div class="imagen-altafulla-15"></div>
+
+   <div class="imagen-tarragona-0"></div>
+
+   <div class="imagen-final"></div>
+
+   <h1 id="texto-final">Disfruta de tus vacaciones!</h1>
+   
+    <script src="javascript-tarragona.js"></script>
+</body>
+</html>
